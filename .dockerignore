@@ -1,0 +1,32 @@
+# Ignore Rust build artifacts
+target
+**/target
+
+# Ignore Node modules
+node_modules
+**/node_modules
+
+# Ignore git
+.git
+.gitignore
+
+# Ignore editor and OS files
+*.swp
+*.swo
+*.DS_Store
+*.vscode
+
+# Ignore logs and temp files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore coverage and test output
+coverage
+dist
+build
+
+# Ignore local env files
+.env
+.envrc
